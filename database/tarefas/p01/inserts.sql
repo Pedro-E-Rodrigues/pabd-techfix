@@ -1,3 +1,5 @@
+TRUNCATE TABLE cliente, endereco, equipamento, ordem_servico, item_ordem_servico, conta RESTART IDENTITY CASCADE;
+
 INSERT INTO cliente (nome, telefone, email) VALUES
 ('João Silva', '11999999999', 'joao@email.com'),
 ('Maria Oliveira', '21988888888', 'maria@email.com'),
@@ -32,7 +34,17 @@ INSERT INTO equipamento (dispositivo, marca, modelo, numero_serie, cliente_id) V
 ('desktop', 'Acer', 'Aspire', 'ACE007', 7),
 ('tablet', 'Samsung', 'Tab S6', 'SAM008', 8),
 ('notebook', 'Apple', 'MacBook Air', 'APP009', 9),
-('smartphone', 'Xiaomi', 'Redmi Note', 'XIA010', 10);
+('smartphone', 'Xiaomi', 'Redmi Note', 'XIA010', 10),
+('desktop', 'Asus', 'ZenBook', 'ASU011', 1),
+('notebook', 'Dell', 'XPS 13', 'DEL012', 2),
+('tablet', 'Microsoft', 'Surface Pro', 'MIC013', 3),
+('smartphone', 'Nokia', 'Lumia 950', 'NOK014', 4),
+('desktop', 'Lenovo', 'ThinkCentre', 'LEN015', 5),
+('notebook', 'Toshiba', 'Satellite', 'TOS016', 6),
+('smartphone', 'Sony', 'Xperia Z5', 'SON017', 7),
+('tablet', 'Huawei', 'MediaPad M5', 'HUA018', 8),
+('notebook', 'Razer', 'Blade Stealth', 'RAZ019', 9),
+('desktop', 'MSI', 'Trident 3', 'MSI020', 10);
 
 INSERT INTO ordem_servico (descricao, status, orcamento, cliente_id) VALUES
 ('Troca de tela', 'aberta', 300.00, 1),
@@ -44,7 +56,17 @@ INSERT INTO ordem_servico (descricao, status, orcamento, cliente_id) VALUES
 ('Reinstalação do sistema', 'em_andamento', 350.00, 7),
 ('Troca de teclado', 'finalizada', 180.00, 8),
 ('Reparo na placa mãe', 'aberta', 600.00, 9),
-('Atualização de drivers', 'aberta', 120.00, 10);
+('Atualização de drivers', 'aberta', 120.00, 10),
+('Verificação de sistema', 'aberta', 250.00, 1),
+('Atualização de drivers', 'em_andamento', 180.00, 2),
+('Troca de bateria', 'finalizada', 300.00, 3),
+('Instalação de antivírus', 'aberta', 150.00, 4),
+('Limpeza interna e ajustes', 'aberta', 220.00, 5),
+('Reparo de teclado', 'cancelada', 200.00, 6),
+('Troca de tela quebrada', 'em_andamento', 450.00, 7),
+('Formatação completa', 'aberta', 160.00, 8),
+('Verificação de superaquecimento', 'finalizada', 320.00, 9),
+('Melhoria de desempenho', 'aberta', 280.00, 10);
 
 INSERT INTO item_ordem_servico (descricao, status, equipamento_id, ordem_servico_id) VALUES
 ('Substituir tela LCD', 'pendente', 1, 1),
@@ -56,7 +78,17 @@ INSERT INTO item_ordem_servico (descricao, status, equipamento_id, ordem_servico
 ('Reinstalar Windows 10', 'executando', 7, 7),
 ('Substituir teclado físico', 'concluido', 8, 8),
 ('Verificar curto na placa', 'pendente', 9, 9),
-('Atualizar driver Wi-Fi', 'pendente', 10, 10);
+('Atualizar driver Wi-Fi', 'pendente', 10, 10),
+('Análise de sistema operacional', 'pendente', 11, 11),
+('Instalação de drivers gráficos', 'executando', 12, 12),
+('Substituição de bateria interna', 'concluido', 13, 13),
+('Instalar antivírus premium', 'pendente', 14, 14),
+('Limpeza de gabinete e pasta térmica', 'pendente', 15, 15),
+('Teclado com falhas - substituição parcial', 'pendente', 16, 16),
+('Troca de display AMOLED', 'executando', 17, 17),
+('Backup e formatação', 'pendente', 18, 18),
+('Verificar ventoinha e temperatura', 'concluido', 19, 19),
+('Atualizações de firmware e SO', 'pendente', 20, 20);
 
 INSERT INTO conta (valor, metodo_pagamento, data_vencimento, status, ordem_servico_id) VALUES
 (300.00, 'pix', '2025-04-30', 'pendente', 1),
@@ -68,4 +100,14 @@ INSERT INTO conta (valor, metodo_pagamento, data_vencimento, status, ordem_servi
 (350.00, 'pix', '2025-05-22', 'pendente', 7),
 (180.00, 'pix', '2025-05-25', 'pago', 8),
 (600.00, 'dinheiro', '2025-05-28', 'pendente', 9),
-(120.00, 'cartao_credito', '2025-06-01', 'pendente', 10);
+(120.00, 'cartao_credito', '2025-06-01', 'pendente', 10),
+(250.00, 'pix', '2025-06-01', 'pendente', 11),
+(180.00, 'cartao_credito', '2025-06-02', 'pendente', 12),
+(300.00, 'boleto', '2025-06-03', 'pago', 13),
+(150.00, 'pix', '2025-06-04', 'pago', 14),
+(220.00, 'dinheiro', '2025-06-05', 'pendente', 15),
+(200.00, 'cartao_debito', '2025-06-06', 'vencido', 16),
+(450.00, 'pix', '2025-06-07', 'pendente', 17),
+(160.00, 'pix', '2025-06-08', 'pago', 18),
+(320.00, 'cartao_credito', '2025-06-09', 'pendente', 19),
+(280.00, 'boleto', '2025-06-10', 'pendente', 20);
