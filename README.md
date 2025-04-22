@@ -10,7 +10,7 @@ Tarefas para o projeto da disciplina de Projeto e Administração de Banco de Da
 
 2. **[Link para tarefa P01](https://github.com/quirinof/pabd-techfix/blob/main/database/tarefas/projeto01.md)**
 
-3. Guia
+3. **Guia**
 
    - Tenha o docker instalado com imagem postgres e pgadmin, depois utilize o arquivo compose para subir os containers. Siga os passos:
 
