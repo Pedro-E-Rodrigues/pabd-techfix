@@ -8,7 +8,8 @@
 
 2. **Consultas**:
 
-   - [Consulta 1 - Matheus](https://github.com/quirinof/pabd-techfix/blob/main/database/tarefas/p01/projeto01-matheus-q01.sql) Essa consulta exibe as ordens de serviço por cliente, separadas por status.
+   - [Consulta 1 (Matheus)](https://github.com/quirinof/pabd-techfix/blob/main/database/tarefas/p01/projeto01-matheus-q01.sql): Essa consulta mostra as ordens de serviço por cliente, separadas por status.
+   - [Consulta 2 (Matheus)](https://github.com/quirinof/pabd-techfix/blob/main/database/tarefas/p01/projeto01-matheus-q02.sql): Exibe os nomes dos clientes com conta pendente, o valor e a descrição da ordem de serviço.
 
 3. **Execução** de scripts:
 
