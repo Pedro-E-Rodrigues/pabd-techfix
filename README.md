@@ -1,6 +1,9 @@
 # Projeto de Banco de Dados
 
-Tarefas para o projeto da disciplina de Projeto e Administração de Banco de Dados (PABD).
+Tarefas para o projeto da disciplina de Projeto e Administração de Banco de Dados (PABD). Baseado
+no projeto **[TechFix](https://github.com/quirinof/techFix-backend)** feito para disciplina de Engenharia de Software II.
+
+1. **[Link para markdown da tarefa P01](https://github.com/quirinof/pabd-techfix/blob/main/database/tarefas/projeto01.md)**
 
 1. **Equipe** (Nome com link para perfil do github, Matrícula, Email):
 
@@ -8,9 +11,7 @@ Tarefas para o projeto da disciplina de Projeto e Administração de Banco de Da
    - [Matheus Quirino](https://github.com/quirinof) - 20220061520 - matheusquirinof@gmail.com
    - [Pedro Emanuel](https://github.com/Pedro-E-Rodrigues) - 20220039135 - pedroemanuel_08@hotmail.com
 
-2. **[Link para tarefa P01](https://github.com/quirinof/pabd-techfix/blob/main/database/tarefas/projeto01.md)**
-
-3. **Guia**
+1. **Guia**
 
    - Tenha o docker instalado com imagem postgres e pgadmin, depois utilize o arquivo compose para subir os containers. Siga os passos:
 
