@@ -12,6 +12,8 @@
    - [Consulta 2 (Matheus)](https://github.com/quirinof/pabd-techfix/blob/main/database/tarefas/p01/projeto01-matheus-q02.sql): Exibe os nomes dos clientes com conta pendente, o valor e a descrição da ordem de serviço.
    - [Consulta 1 (Isayan)](https://github.com/quirinof/pabd-techfix/blob/main/database/tarefas/p01/projeto01-isayan-q01.sql): Essa consulta mostra as item ordem em servico pendentes ou executando.
    - [Consulta 2 (Isayan)](https://github.com/quirinof/pabd-techfix/blob/main/database/tarefas/p01/projeto01-isayan-q02.sql):Exibe os equipamentos cadastrados ordenados por cliente.
+   - [Consulta 1 (Pedro)](https://github.com/quirinof/pabd-techfix/blob/main/database/tarefas/p01/projeto01-pedro-q01.sql): Essa consulta mostra os problemas mais recorrentes por tipo de dispositivo.
+   - [Consulta 2 (Isayan)](https://github.com/quirinof/pabd-techfix/blob/main/database/tarefas/p01/projeto01-pedro-q02.sql):Exibe os clientes com equipamentos pendentes.
 3. **Execução** de scripts:
 
 ```bash
