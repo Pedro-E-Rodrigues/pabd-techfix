@@ -20,3 +20,19 @@
 - [Procedimento 1](https://github.com/quirinof/pabd-techfix/blob/main/database/tarefas/p02/projeto02-matheus-p01.sql): Esse procedimento atualiza o status de um item de ordem de serviço.
 
 - [Procedimento 2](https://github.com/quirinof/pabd-techfix/blob/main/database/tarefas/p02/projeto02-matheus-p02.sql): Esse procedimento atualiza o status de uma conta de um cliente.
+
+### Funções - Pedro
+
+- [Função 1](https://github.com/quirinof/pabd-techfix/blob/main/database/tarefas/p02/projeto02-pedro-f01.sql)
+: Retorna o valor do orçamento de uma ordem de serviço específica.
+
+- [Função 2](https://github.com/quirinof/pabd-techfix/blob/main/database/tarefas/p02/projeto02-pedro-f02.sql)
+: Verifica e retorna a quantidade de ordens de serviço ativas de um determinado cliente.
+
+### Procedimentos - Pedro
+
+- [Procedimento 1](https://github.com/quirinof/pabd-techfix/blob/main/database/tarefas/p02/projeto02-pedro-p01.sql)
+: Registra uma nova ordem de serviço para um cliente com a descrição do problema.
+
+- [Procedimento 2](https://github.com/quirinof/pabd-techfix/blob/main/database/tarefas/p02/projeto02-pedro-p02.sql)
+: Finaliza o status de uma ordem de serviço e cria a respectiva conta a receber.
